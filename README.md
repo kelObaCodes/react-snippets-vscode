@@ -23,25 +23,38 @@ The React Snippets extension for Visual Studio Code enhances your React developm
 ### Available Snippets
 
 
-**i uef & ust**
+**i uef & ust**<br>
+------------------------------------------
 import React, { useEffect, useState } from 'react';
+
+
+**i ust**<br>
 ------------------------------------------
-**i ust**
 import React, { useState } from 'react';
+
+
+**i uef**<br>
 ------------------------------------------
-**i uef**
 import React, { useEffect } from 'react';
+
+
+**i uctx**<br>
 ------------------------------------------
-**i uctx**
 import React, { useContext } from 'react';
+
+
+**i urd**<br>
 ------------------------------------------
-**i urd**
 import React, { useReducer } from 'react';
-------------------------------------------
+
+
 **ust**
-const [data, setData] = useState(null);
 ------------------------------------------
-**uEf**
+const [data, setData] = useState(null);
+
+
+**uEf**<br>
+------------------------------------------
 useEffect(() => {
   // effect
   return () => {
@@ -49,21 +62,31 @@ useEffect(() => {
   };
 }, []);
 
-**uctx**
+
+**uctx**<br>
+------------------------------------------
 const contextValue = useContext(Context);
+
+
+**urd**<br>
 ------------------------------------------
-**urd**
 const [state, dispatch] = useReducer(reducer, initialState);
+
+
+**ucb**<br>
 ------------------------------------------
-**ucb**
 const callback = useCallback(() => {
   // callback
 }, []);
+
+
+**um**<br>
 ------------------------------------------
-**um**
 const computedValue = useMemo(() => value, []);
+
+
+**rfc**<br>
 ------------------------------------------
-**rfc**
 import React from 'react';
 
 const ComponentName = () => {
@@ -75,8 +98,10 @@ const ComponentName = () => {
 };
 
 export default ComponentName;
+
+
+**rfcu**<br>
 ------------------------------------------
-**rfcu**
 import React, { useState } from 'react';
 
 const ComponentName = () => {
@@ -90,8 +115,10 @@ const ComponentName = () => {
 };
 
 export default ComponentName;
+
+
+**rfce**<br>
 ------------------------------------------
-**rfce**
 import React, { useEffect } from 'react';
 
 const ComponentName = () => {
@@ -110,8 +137,10 @@ const ComponentName = () => {
 };
 
 export default ComponentName;
+
+
+**rfcsue**<br>
 ------------------------------------------
-**rfcsue**
 import React, { useState, useEffect } from 'react';
 
 const ComponentName = () => {
@@ -132,56 +161,66 @@ const ComponentName = () => {
 };
 
 export default ComponentName;
+
+
+**ret**<br>
 ------------------------------------------
-**ret**
 return (
   <div>
     {/* content */}
   </div>
 );
-------------------------------------------
 
-**map**
+
+**map**<br>
+------------------------------------------
 {data.map((item, index) => (
   <div key={index}>{item}</div>
 ))}
-------------------------------------------
 
-**i pt**
+
+**i pt**<br>
+------------------------------------------
 import PropTypes from 'prop-types';
+
+**pt obj**<br>
 ------------------------------------------
 
-**pt obj**
 ComponentName.propTypes = {
   propName: PropTypes.object.isRequired,
 };
-------------------------------------------
 
-**pt arr**
+
+**pt arr**<br>
+------------------------------------------
 ComponentName.propTypes = {
   propName: PropTypes.array.isRequired,
 };
-------------------------------------------
 
-**pt str**
+
+**pt str**<br>
+------------------------------------------
 ComponentName.propTypes = {
   propName: PropTypes.string.isRequired,
 };
-------------------------------------------
 
-**pt num**
+
+**pt num**<br>
+------------------------------------------
 ComponentName.propTypes = {
   propName: PropTypes.number.isRequired,
 };
-------------------------------------------
 
-**pt bool**
+
+**pt bool**<br>
+------------------------------------------
 ComponentName.propTypes = {
   propName: PropTypes.bool.isRequired,
 };
-------------------------------------------
 
-**pt func**
+
+**pt func**<br>
+------------------------------------------
 ComponentName.propTypes = {
   propName: PropTypes.func.isRequired,
 };

@@ -2,7 +2,7 @@
     "name": "react-snippets-vscode",
     "displayName": "react-snippets-vscode",
     "description": "Enhance your React development workflow with our React Snippets extension for Visual Studio Code. This extension offers a wide range of React code snippets, allowing you to quickly insert common patterns, hooks, and components with ease. Streamline your coding process and boost productivity with shortcuts for importing React, using hooks, defining functional components, and more.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "KelvinIgbinoba",
     "engines": {
         "vscode": ">=1.50.0"
